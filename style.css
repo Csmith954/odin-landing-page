@@ -57,7 +57,7 @@ h1 {
 }
 
 img {
-    max-width: 400px;
+    max-width: 200px;
 }
 
 .header-container {
@@ -81,4 +81,37 @@ img {
     margin-right: auto ;
     border-radius: 8px;
     padding: 8px 20px;
+}
+
+.img-section {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: auto;
+
+}
+
+p {
+
+}
+
+.image-one,
+.image-two,
+.image-three,
+.image-four {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 200px;
 }
