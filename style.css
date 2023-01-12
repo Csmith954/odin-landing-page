@@ -16,3 +16,69 @@ a {
 button {
     background-color: #3882f6;
 }
+
+h4 {
+    font-size: 24px;
+    color:#f9faf8
+}
+
+h1 {
+    font: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-left {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 75px;
+}
+
+.header-right {
+    display: flex;
+    gap: 10px;
+    margin-right: 50px;
+}
+
+img {
+    max-width: 400px;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 25px;
+}
+
+.header-content {
+    margin-left: 75px;
+    margin-bottom: 50px;
+}
+
+.header-image {
+    margin-bottom: 50px;
+}
+
+.sign-up {
+    display: flex;
+    align-self: center;
+    margin-right: auto ;
+    border-radius: 8px;
+    padding: 8px 20px;
+}
