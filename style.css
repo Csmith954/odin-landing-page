@@ -19,7 +19,8 @@ button {
 
 h4 {
     font-size: 24px;
-    color:#f9faf8
+    color:#f9faf8;
+    margin-bottom: 0px;
 }
 
 h1 {
@@ -99,6 +100,8 @@ img {
     margin-right: auto ;
     border-radius: 8px;
     padding: 8px 20px;
+    color: #f9faf8;
+    font-weight: 700
 }
 
 .img-section {
@@ -123,6 +126,7 @@ h2 {
 }
 
 p {
+    margin-top: 10px;
 
 }
 
@@ -216,4 +220,45 @@ p {
     align-self: flex-end;
     margin-right: 400px;
     margin-bottom: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.foot-container {
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.footer-text {
+    padding-left: 100px;
+
+}
+
+.foot-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.foot-p {
+    color: #e5e7eb;
+}
+
+.footer-button {
+    display: flex;
+    align-self: center;
+    margin-right: auto ;
+    border-radius: 8px;
+    padding: 8px 20px;
+    border-color: #e5e7eb;
+    color: #e5e7eb;
+    font-weight: 700;
 }
