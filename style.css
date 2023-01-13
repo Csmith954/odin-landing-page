@@ -118,7 +118,7 @@ h2 {
     flex-wrap: wrap;
     flex: 1;
     gap: 25px;
-    justify-content: space-evenly;
+    justify-content: center;
    
 }
 
@@ -180,4 +180,40 @@ p {
     flex-direction: column;
     flex-wrap: wrap;    
     max-width: 200px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    padding-left: 340px;
+    padding-right: 340px;
+    margin-bottom: 0px;
+}
+
+.author {
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 400px;
+    margin-bottom: 100px;
 }
